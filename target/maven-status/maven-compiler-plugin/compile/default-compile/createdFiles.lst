@@ -1,0 +1,9 @@
+avantica/app/s3/utils/CustomerRepository.class
+avantica/app/s3/utils/GreetingController.class
+avantica/app/s3/repository/BinaryTreeMongoRepository.class
+avantica/app/s3/utils/TreeUtilities.class
+avantica/app/s3/Application.class
+avantica/app/s3/entities/BinaryTree.class
+avantica/app/s3/utils/Customer.class
+avantica/app/s3/repository/BinaryTreeJpaRepository.class
+avantica/app/s3/entities/IgnoreHibernatePropertiesInJackson.class
