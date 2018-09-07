@@ -2,17 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="454d4a64-e307-4802-bacb-c413ab560c57" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gs-accessing-data-mongodb.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mvnw" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/controller/TransactionController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Configuration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Queue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Structure.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Transaction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/TransactionType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/ConfigurationRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/QueueMongoRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/QueueRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/StructureRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/TransactionRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/TransactionTypeRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/services/TransactionServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/services/TransactionServices.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/QueueUtilities.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/avantica/app/s3/utils/TransactionRepositoryTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/Application.java" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/Application.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/BinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/BinaryTree.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/Customer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/CustomerRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/GreetingController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/TreeUtilities.java" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/TreeUtilities.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/avantica/app/s3/utils/CustomerRepositoryTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/Application.class" afterPath="$PROJECT_DIR$/target/classes/avantica/app/s3/Application.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/entities/BinaryTree.class" afterPath="$PROJECT_DIR$/target/classes/avantica/app/s3/entities/BinaryTree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/utils/Customer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/utils/CustomerRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/utils/GreetingController.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/utils/TreeUtilities.class" afterPath="$PROJECT_DIR$/target/classes/avantica/app/s3/utils/TreeUtilities.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/avantica/app/s3/utils/CustomerRepositoryTests.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,12 +52,180 @@
       </map>
     </option>
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/gs_accessing_data_mongodb$Application.coverage" NAME="Application Coverage Results" MODIFIED="1534630226450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IgnoreHibernatePropertiesInJackson.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/IgnoreHibernatePropertiesInJackson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-986">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-495">
+              <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/TransactionType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/controller/TransactionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-574">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Configuration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Structure.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Structure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/avantica/app/s3/entities</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Tree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/NodeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/QueueRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/QueueUtilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/GreetingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/ConfigurationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/StructureRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/QueueMongoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/TreeUtilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/services/StructureServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/services/StructureServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/TransaccionType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/TransactionType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/TransantionTypeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/TransactionTypeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Structure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/services/TransactionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/services/TransactionServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/controller/TransactionController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/avantica/app/s3/utils/CustomerRepositoryTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/TransactionRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/avantica/app/s3/utils/TransactionRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -50,13 +241,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -70,6 +261,76 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="avantica/app/s3" type="cbb8eebc:String" user="avantica/app/s3" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="avantica/app/s3/controller" type="cbb8eebc:String" user="avantica/app/s3/controller" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="avantica/app/s3/entities" type="cbb8eebc:String" user="avantica/app/s3/entities" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="avantica/app/s3/repository" type="cbb8eebc:String" user="avantica/app/s3/repository" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="avantica/app/s3/services" type="cbb8eebc:String" user="avantica/app/s3/services" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="avantica/app/s3/utils" type="cbb8eebc:String" user="avantica/app/s3/utils" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+              <item name="src/main/resources" type="cbb8eebc:String" user="src/main/resources" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+              <item name="src/test/java" type="cbb8eebc:String" user="src/test/java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="complete" type="cbb8eebc:String" user="complete" />
+              <item name="src/test/java" type="cbb8eebc:String" user="src/test/java" />
+              <item name="avantica/app/s3/utils" type="cbb8eebc:String" user="avantica/app/s3/utils" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,13 +338,15 @@
               <item name="gs-accessing-data-mongodb" type="b2602c69:ProjectViewProjectNode" />
               <item name="complete" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gs-accessing-data-mongodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="complete" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -92,6 +355,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -105,7 +375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TransactionRepositoryTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -126,6 +396,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="TransactionRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="avantica.app.s3.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="gs-accessing-data-mongodb" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="avantica.app.s3.utils" />
+      <option name="MAIN_CLASS_NAME" value="avantica.app.s3.utils.TransactionRepositoryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -193,6 +488,15 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TransactionRepositoryTest" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TransactionRepositoryTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -207,44 +511,65 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534619721913</updated>
-      <workItem from="1534619726159" duration="41000" />
+      <workItem from="1534619726159" duration="30921000" />
+      <workItem from="1535215003283" duration="5107000" />
+      <workItem from="1535240493074" duration="8460000" />
+      <workItem from="1536078990060" duration="197000" />
+      <workItem from="1536285413274" duration="10247000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TransactionRepositoryTest - 2018.09.07 at 08h 12m 21s.xml">
+      <configuration name="TransactionRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionRepositoryTest - 2018.09.07 at 08h 13m 22s.xml">
+      <configuration name="TransactionRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionRepositoryTest - 2018.09.07 at 08h 14m 12s.xml">
+      <configuration name="TransactionRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionRepositoryTest - 2018.09.07 at 08h 19m 27s.xml">
+      <configuration name="TransactionRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41000" />
+    <option name="totallyTimeSpent" value="54932000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37703252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32723576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20021299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39772728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,8 +579,469 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/avantica/app/s3/utils/TransactionRepositoryTest.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="19" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/avantica/app/s3/utils/CustomerRepositoryTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#396#397#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#624#625#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#735#736#0" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#858#859#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Structure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#405#406#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#468#469#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
+            <element signature="e#573#574#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+            <element signature="e#651#652#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#763#764#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#856#857#0" expanded="false" />
+            <element signature="e#933#934#0" expanded="false" />
+            <element signature="e#987#988#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/StructureRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/controller/TransactionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/TreeUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="77" column="5" lean-forward="false" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#656#657#0" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/QueueRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/BinaryTreeJpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="80" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="128" column="40" lean-forward="true" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/TreeUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="492" column="9" lean-forward="false" selection-start-line="492" selection-start-column="9" selection-end-line="492" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="799" column="0" lean-forward="false" selection-start-line="799" selection-start-column="0" selection-end-line="799" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final-sources.jar!/org/hibernate/collection/internal/PersistentList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="271" column="0" lean-forward="false" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/NodeRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Node.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/CustomerRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="921" column="27" lean-forward="false" selection-start-line="921" selection-start-column="27" selection-end-line="921" selection-end-column="27" />
+          <folding>
+            <element signature="e#35031#35032#0" expanded="false" />
+            <element signature="e#35078#35079#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/avantica/app/s3/utils/CustomerRepositoryTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/avantica/app/s3/utils/TransactionRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/TreeUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/QueueUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/services/TransactionServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/services/TransactionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#789#790#0" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/TransactionTypeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/TransactionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/StructureRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/QueueRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/QueueMongoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/ConfigurationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/BinaryTreeMongoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/BinaryTreeJpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/TransactionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Structure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/IgnoreHibernatePropertiesInJackson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/controller/TransactionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/avantica/app/s3/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
