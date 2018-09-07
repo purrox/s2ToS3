@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="454d4a64-e307-4802-bacb-c413ab560c57" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/controller/TransactionController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Configuration.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Queue.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Structure.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/Transaction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/TransactionType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/ConfigurationRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/QueueMongoRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/QueueRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/StructureRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/TransactionRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/repository/TransactionTypeRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/services/TransactionServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/services/TransactionServices.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/QueueUtilities.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/avantica/app/s3/utils/TransactionRepositoryTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/Application.java" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/BinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/entities/BinaryTree.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/Customer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/CustomerRepository.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/GreetingController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/TreeUtilities.java" afterPath="$PROJECT_DIR$/src/main/java/avantica/app/s3/utils/TreeUtilities.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/avantica/app/s3/utils/CustomerRepositoryTests.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/Application.class" afterPath="$PROJECT_DIR$/target/classes/avantica/app/s3/Application.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/entities/BinaryTree.class" afterPath="$PROJECT_DIR$/target/classes/avantica/app/s3/entities/BinaryTree.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/utils/Customer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/utils/CustomerRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/utils/GreetingController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/avantica/app/s3/utils/TreeUtilities.class" afterPath="$PROJECT_DIR$/target/classes/avantica/app/s3/utils/TreeUtilities.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -515,7 +482,7 @@
       <workItem from="1535215003283" duration="5107000" />
       <workItem from="1535240493074" duration="8460000" />
       <workItem from="1536078990060" duration="197000" />
-      <workItem from="1536285413274" duration="10247000" />
+      <workItem from="1536285413274" duration="10719000" />
     </task>
     <servers />
   </component>
@@ -534,11 +501,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54932000" />
+    <option name="totallyTimeSpent" value="55404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -551,7 +517,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32723576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32723576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20021299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
